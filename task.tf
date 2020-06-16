@@ -1,6 +1,7 @@
 	//AWS PROVIDER
 provider "aws"{
 	region="ap-south-1"
+	shared_credentials_file = "C:/Users/Manisha/.aws/credentials"
 	profile="manishag"
 	      }
 		//SECRET_KEY
