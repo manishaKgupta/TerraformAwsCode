@@ -141,5 +141,6 @@ provisioner "remote-exec" {
 inline = [
 "sudo chmod -R 777 /var/www/html",
 "sudo echo '<img src='https://${aws_cloudfront_distribution.s3_cloudfront.domain_name}/mani.png' width='250' height='250'>'  >> /var/www/html/indexfile.html" 
-	] }
+	]
+}
  }
